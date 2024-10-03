@@ -25,6 +25,6 @@
     </head>
     <body>
         <h1>Bienvenido <%= valor %>,ha iniciado sesión de manera correcta  </h1>
-        <a href="${pageContext.request.contextPath}/jsp/login.jsp">Cerrar Sesión</a>
+        <a href="${pageContext.request.contextPath}/login_servlet">Cerrar Sesión</a>
     </body>
 </html>

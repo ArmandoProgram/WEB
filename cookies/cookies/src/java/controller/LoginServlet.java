@@ -121,7 +121,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response)
         conn = conexion.getConnectionBD();
 
         // Consulta a la base de datos
-        String sql = "SELECT password FROM autenticacion WHERE matricula = ?";
+        String sql = "SELECT password FROM autenticaction WHERE matricula = ?";
         ps = conn.prepareStatement(sql);
         ps.setString(1, matricula);
 
